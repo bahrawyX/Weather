@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Document</title>
+</head>
+
+<nav class="navbar navbar-expand-lg p-4 mb-3 mt-4">
+    <div class="container-fluid   w-75">
+        <img src="logo@2x.png" class="" width="70px" alt="">
+        <a class="navbar-brand" href="#">Weather</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item  px-5 ">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link " aria-current="page" href="#">News</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link " aria-current="page" href="#">Live Cameras</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link " aria-current="page" href="#">Photos</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link " aria-current="page" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <!-- body -->
+    <div class=" cont bg-black  h-100  my-2 w-100  vh-100 position-relative">
+        <div class="row">
+            <div class="col-md-6 w-100  position-relative ">
+                <div class="searchinput w-75 position-relative d-flex  m-auto my-5 ">
+                    <input id="inputSearch" type="text" id="search" class="search form-control  rounded-5  p-3" placeholder="Find Your Location...">
+                    <button id="searchBTN" class="btn btn-info btn-lg rounded-5 position-absolute but">Find</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="position-relative  p-5 ">
+        <div class="cards my-5 w-75 m-auto  position-absolute">
+
+            <div class="row roow m-auto" id="cardContainer">
+
+            </div>
+
+        </div>
+
+    </section>
+    <div class="bg">
+    </div>
+    <div class="foot">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="searchinput w-100 position-relative d-flex  m-auto my-5 ">
+                        <input id="inputSearch" type="text" id="search" class="search form-control  rounded-5  p-3" placeholder="Enter Your Email To Subscribe...">
+                        <button id="searchBTN" class="btn btn-info btn-lg rounded-5 position-absolute but">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <i class="fa-brands fa-2x mx-2  fa-pinterest"></i>
+                    <i class="fa-brands fa-2x mx-2 fa-facebook"></i>
+                    <i class="fa-brands fa-2x mx-2 fa-dribbble"></i>
+                    <i class="fa-brands fa-2x mx-2 fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/main.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #1e202b !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #1e202b;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    border: transparent 1px solid;
+    border-radius: 20px;
+    border: transparent 1px solid;
+    color: white !important;
+}
+
+nav li a:hover {
+    color: #009ad8 !important;
+    border: #009ad8 1px solid;
+    border-radius: 20px;
+    border: #009ad8 1px solid;
+}
+
+input {
+    background: #1e202b !important;
+    color: white !important;
+    border: none !important;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input::placeholder {
+    color: rgba(160, 160, 185, 0.221) !important;
+}
+
+.cont {
+    background-image: url(../banner.png);
+    height: 370px !important;
+}
+
+.but {
+    top: 4px;
+    right: 5px;
+    width: 120px !important;
+}
+
+.cards {
+    top: -220px;
+    left: 230px;
+}
+
+.col-md-4 {
+    margin: 0px !important;
+    padding: 0 !important;
+}
+
+.col-empty,
+.col:empty,
+[class^=col-]:empty {
+    display: none;
+}
+
+.first {
+    background-color: #323544;
+    border-radius: 15px 0 0 15px !important;
+}
+
+.third {
+    border-radius: 0 15px 15px 0 !important;
+}
+
+.third .header {
+    border-radius: 0 15px 0 0!important;
+}
+
+.first .header {
+    background-color: rgba(11, 10, 10, 0.1) !important;
+    border-radius: 15px 0 0 0;
+}
+
+.second {
+    background-color: #262936;
+}
+
+.second .header {
+    background-color: #1e202b !important;
+}
+
+.roow {
+    width: 80% !important;
+}
+
+.cardd {
+    color: white !important;
+    padding: 0 !important;
+    height: 380px;
+    width: 100%;
+}
+
+.card-body {
+    padding: 10px !important;
+}
+
+.cardd .header {
+    background-color: #292d43;
+    margin-bottom: 20px;
+    padding: 10px !important;
+}
+
+.cardd .icon .fi {
+    width: 10% !important;
+}
+
+.cardd h5 {
+    font-size: 16px !important;
+    line-height: 1.2rem !important;
+    letter-spacing: 1px !important;
+    font-weight: 400 !important;
+}
+
+.cardd h6 {
+    color: rgb(88, 84, 84);
+    padding-left: 15px;
+    font-size: 20px;
+    margin-bottom: 20px !important;
+}
+
+.cardd .deg {
+    font-size: 80px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 30px !important;
+}
+
+.cardd .deg i {
+    font-size: 55px;
+    margin-left: 20px;
+}
+
+.cardd .blu {
+    color: #009ad8;
+    padding: 15px;
+}
+
+.cardd p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.cardd .logos {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.cardd .logos span {
+    padding-right: 15px;
+}
+
+.cardd .logos span,
+.cardd .logos i {
+    font-size: 18px;
+}
+
+.bg {
+    height: 200px;
+    background-color: #1e202b;
+    color: #1e202b;
+}
+
+.foot {
+    background-color: #262936;
+}
+
+.foot i {
+    color: #009ad8;
+    background-color: #1e202b;
+    padding: 6px;
+    border-radius: 50%;
+    transition: 0.6s all;
+}
+
+.foot i:hover {
+    color: white;
+    background-color: #009ad8;
+}
+
+.country {
+    margin-bottom: 30px !important;
+}
+
+.cardd .icon i {
+    margin-bottom: 20px !important;
+}
+
+.cardd .degrees .maxDeg {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.cardd .degrees .min {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: rgb(88, 84, 84) !important;
+    margin-bottom: 20px !important;
+}
+
+.cardd .bot {
+    margin-bottom: 19px !important;
+}
